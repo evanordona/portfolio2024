@@ -2,7 +2,7 @@ import React from 'react'
 import {FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-
+import resume from '../assets/evan_ordona_resume2024.pdf'
 
 const SocialLinks = () => {
 
@@ -43,7 +43,7 @@ const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: `./evan_ordona_resume2024.pdf`,
+            href: resume,
             style: 'rounded-br-md',
             download: true,
             
