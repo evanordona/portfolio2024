@@ -14,9 +14,9 @@ const Navbar = () => {
             <div className='ml-2 text-xl lg:ml-16 lg:text-4xl'>evanordona</div>
 
             <div className='hidden text-xl lg:flex w-[500px] justify-evenly items-center lg:mr-5'>
-                <Link to='about' smooth duration={500} className='transition ease-in-out hover:text-primary hover:scale-105'>about</Link>
-                <Link to='skills' smooth duration={500} className='transition ease-in-out hover:text-primary hover:scale-105'>skills</Link>
-                <Link to='projects' smooth duration={500} className='transition ease-in-out hover:text-primary hover:scale-105'>projects</Link>
+                <Link to='about' smooth duration={500} className='transition ease-in-out cursor-pointer hover:text-primary hover:scale-105'>about</Link>
+                <Link to='skills' smooth duration={500} className='transition ease-in-out cursor-pointer hover:text-primary hover:scale-105'>skills</Link>
+                <Link to='projects' smooth duration={500} className='transition ease-in-out cursor-pointer hover:text-primary hover:scale-105'>projects</Link>
                 <a href={resume} download={true}>
                     <button className="relative inline-flex items-center justify-center px-4 py-2 text-base font-medium transition duration-200 ease-in-out rounded-md shadow-md cursor-pointer bg-secondary hover:bg-accent">
                         Download Resume
