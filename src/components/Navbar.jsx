@@ -9,7 +9,7 @@ const Navbar = () => {
 
 
     return (
-        <div className='fixed flex justify-between w-screen py-2 text-white font-heading bg-background'>
+        <div className='fixed z-10 flex justify-between w-screen py-2 text-white font-heading bg-background'>
 
             <div className='ml-2 text-xl lg:ml-16 lg:text-4xl'>evanordona</div>
 

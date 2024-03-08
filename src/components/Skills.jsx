@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useGSAP } from '@gsap/react'
+
+gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(useGSAP);
+
 
 const Skills = () => {
+      
     return (
         <div name='skills' className='font-heading w-screen bg-background py-[10rem]'>
 
