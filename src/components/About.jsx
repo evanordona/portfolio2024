@@ -6,10 +6,10 @@ const About = () => {
 
             <div className='flex flex-col items-center justify-center'>
 
-                <h1 className='text-lightblue text-3xl font-bold'>about me</h1>
+                <h1 className='text-2xl font-bold lg:text-3xl text-lightblue'>about me</h1>
 
-                <div className='bg-secondary w-[1000px] h-[500px] rounded-[3rem] mt-10 flex flex-col justify-center items-center text-xl hover:scale-110 transition-transform ease-in-out'>
-                    <div className='w-[800px] flex flex-col justify-evenly h-[450px]'>
+                <div className='bg-secondary w-[300px] lg:w-[1000px] lg:h-[500px] rounded-[3rem] mt-10 flex flex-col justify-center items-center text-md lg:text-xl hover:scale-110 transition-transform ease-in-out'>
+                    <div className='flex flex-col py-5 justify-evenly px-7 h-[750px] lg:h-[500px]'>
                         <div>
 
                             I am a passionate developer based in New Jersey. I have dedicated myself to programming
