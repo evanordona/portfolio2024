@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
+import headshot from '../assets/headshot.png'
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(useGSAP);
@@ -25,7 +26,7 @@ const Home = () => {
         <p className='text-lg lg:text-2xl text-gray'>Building passion-driven projects for a decade</p>
       </div>
 
-      <img src='' alt='blah' className='h-[200px] w-[200px] lg:h-[325px] lg:w-[325px] rounded-full mt-[5rem] lg:mt-[10rem] border-2 border-white hover:scale-125 transition-transform ease-in-out'></img>
+      <img src={headshot} alt='blah' style={{'object-fit' :' cover'}} className='size-[200px] lg:size-[325px] rounded-full mt-[5rem] lg:mt-[10rem] border-2 border-secondary hover:scale-125 transition-transform ease-in-out'></img>
     </div>
   )
 }
