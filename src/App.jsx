@@ -1,5 +1,4 @@
 import React from 'react'
-import './App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
@@ -11,15 +10,13 @@ import SocialLinks from './components/SocialLinks'
 const App = () => {
   return (
     <div className='text-white font-heading'>
-
       <Navbar />
       <SocialLinks />
       <Home />
       <About />
-      <Skills />
       <Projects />
+      <Skills />
       <Footer />
-
     </div>
   )
 }
