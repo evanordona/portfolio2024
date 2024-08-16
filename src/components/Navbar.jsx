@@ -32,8 +32,8 @@ const Navbar = () => {
             {nav && (<div className='absolute top-0 left-0 flex flex-col items-center justify-center w-full h-screen text-2xl bg-background'>
 
                 <Link onClick={() => setNav(!nav)} to='about' smooth duration={500} className='transition ease-in-out hover:text-primary hover:scale-105'>about</Link>
-                <Link onClick={() => setNav(!nav)} to='skills' smooth duration={500} className='transition ease-in-out hover:text-primary hover:scale-105'>skills</Link>
                 <Link onClick={() => setNav(!nav)} to='projects' smooth duration={500} className='transition ease-in-out hover:text-primary hover:scale-105'>projects</Link>
+                <Link onClick={() => setNav(!nav)} to='skills' smooth duration={500} className='transition ease-in-out hover:text-primary hover:scale-105'>skills</Link>
 
 
             </div>)}

@@ -15,7 +15,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: `https://linkedin.com/in/evanordona`,
-            stlye: 'rounded-tr-md'
+            style: 'rounded-tr-md'
         },
         {
             id: 2,
