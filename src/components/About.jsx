@@ -27,7 +27,7 @@ const About = () => {
 
                 <h1 className='text-2xl font-bold lg:text-3xl text-lightblue'>about me</h1>
 
-                <div className='bg-secondary w-[300px] lg:w-[1000px] lg:h-[500px] rounded-[3rem] mt-10 flex flex-col justify-center items-center text-md lg:text-xl hover:scale-110 transition-transform ease-in-out' >
+                <div className='border-secondary border-[8px] w-[300px] lg:w-[1000px] lg:h-[500px] rounded-[3rem] mt-10 flex flex-col justify-center items-center text-md lg:text-xl hover:scale-110 transition-transform ease-in-out' >
                     <div className='flex flex-col py-5 justify-evenly px-7 h-[850px] lg:h-[500px] opacity-80'>
                         <div>
 

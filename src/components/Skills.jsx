@@ -16,7 +16,7 @@ const Skills = () => {
 
                 <h1 className='text-2xl font-bold lg:text-3xl text-lightblue'>skills</h1>
 
-                <div className='bg-accent w-[270px] lg:w-[700px] lg:h-[350px] rounded-[3rem] mt-10 flex flex-col items-center lg:flex-row lg:justify-between text-xl hover:scale-110 transition-transform ease-in-out'>
+                <div className='border-accent border-[8px] w-[270px] lg:w-[750px] lg:h-[350px] rounded-[3rem] mt-10 flex flex-col items-center lg:flex-row lg:justify-between text-xl hover:scale-110 transition-transform ease-in-out'>
                     <div className='mx-10 my-5 bg-dark-accent rounded-2xl p-3 w-[12rem]'>
                         <div className='text-xl font-bold text-center'>Front-End</div>
 
