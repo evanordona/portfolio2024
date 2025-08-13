@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll'
-import resume from '../assets/Evan_Ordona_Resume.pdf'
-import {FaBars, FaTimes} from "react-icons/fa";
+// import resume from '../assets/Evan_Ordona_Resume.pdf'
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
 
@@ -17,11 +17,11 @@ const Navbar = () => {
                 <Link to='about' smooth duration={500} className='transition ease-in-out cursor-pointer hover:text-primary hover:scale-105'>about</Link>
                 <Link to='projects' smooth duration={500} className='transition ease-in-out cursor-pointer hover:text-primary hover:scale-105'>projects</Link>
                 <Link to='skills' smooth duration={500} className='transition ease-in-out cursor-pointer hover:text-primary hover:scale-105'>skills</Link>
-                <a href={resume} download={true}>
-                    <button className="relative inline-flex items-center justify-center px-4 py-2 text-base font-medium transition duration-200 ease-in-out rounded-md shadow-md cursor-pointer bg-secondary hover:bg-accent">
-                        Download Resume
-                    </button>
-                </a>
+                {/* <a href={resume} download={true}> */}
+                <button className="relative inline-flex items-center justify-center px-4 py-2 text-base font-medium transition duration-200 ease-in-out rounded-md shadow-md cursor-pointer bg-secondary hover:bg-accent">
+                    Download Resume
+                </button>
+                {/* </a> */}
 
             </div>
 
